@@ -1,0 +1,22 @@
+.rodape {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 1em;
+}
+.rodape ul li a {
+    font-size: .6em;
+    text-decoration: none;
+    color: var(--azul);
+}
+
+@media screen and (min-width:1500px) {
+    .rodape {
+        background-color: var(--claro);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape ul li a {
+        font-size: .8em;
+    }
+}

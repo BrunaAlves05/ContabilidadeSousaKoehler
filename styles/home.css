@@ -1,0 +1,119 @@
+.home {
+    background-color: var(--claro);
+    width: 100vw;
+}
+
+.text_container {
+    display: none;
+}
+
+.home_container {
+    background-image: url(../img/capa.jpg);
+    width: 100vw;
+    height: 35vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+.barra_lateral {
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.logo img{
+    width: 30%;
+}
+.home_content {
+    margin: 3em;
+}
+.home_content h1 {
+    font-weight: bold;
+}
+.home_content p {
+    padding: .5em 0;
+    font-size: .8em;
+}
+.links_redes {
+    display: flex;
+}
+.links_redes li img{
+    margin: .8em 0;
+    width: 70%;
+}
+
+.redes {
+    display: none;
+}
+.links_container {
+    display: none;
+}
+
+@media screen and (min-width:1500px) {
+    .home_container{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .text_container {
+        display: flex;
+        align-items: center;
+        font-size: 3em;
+        justify-content: center;
+    }
+    .barra_lateral{
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+        height: 100vh;
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    .redes {
+        display: flex;
+    }
+    .links_container {
+        display: flex;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .links li {
+        padding: .5em;
+    }
+    .links li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .9em;
+        width: 100%;
+        border-bottom: 1px solid var(--azul);
+        color: var(--azul);
+    }
+    .links li a:hover {
+        color: var(--claro);
+        border-color: var(--claro);
+    }
+
+    .home_content {
+        display: none;
+    }   
+
+    .redes div span {
+        margin: .8em;
+    }
+    .redes_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40vh;
+    }
+}

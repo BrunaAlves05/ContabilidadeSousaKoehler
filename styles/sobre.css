@@ -1,0 +1,44 @@
+.sobre_card {
+    display: none;
+}
+
+.sobre_container {
+    background-color: var(--claro);
+}
+
+.sobre_content {
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: .8em;
+    color: white;
+}
+
+.sobre {
+    background-image:url(../img/mulher.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    padding: .5em;
+}
+
+@media screen and (min-width:1500px) {
+    .sobre {
+        height: 100vh;
+        background-position: center;
+        opacity: 100%;
+    }
+    .sobre_content {
+        background: none;
+        position: absolute;
+        color: var(--azul);
+        width: 40%;
+        padding: .2em 4em;
+    }
+    .sobre_content h2 {
+        font-size: 3em;
+        padding: .8em 0;
+    }
+    .sobre_content p {
+        padding: .5em 0;
+        font-size: 1.2em;
+    }
+}
