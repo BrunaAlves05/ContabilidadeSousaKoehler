@@ -5,7 +5,7 @@
 @import url(experiencia.css);
 @import url(rodape.css);
 @import url(fale.css);
-@import url(_variaveis.css);
+@import url(variaveis.css);
 
 body {
     font-family: var(--fonte );
